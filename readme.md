@@ -1,4 +1,4 @@
-This repo was created to build a general-purpose LLM system that accurately extracts procedure knowledge from technical documents, such as engineering maintenance manuals, without dataset annotation or model fine-tuning?
+This repo contains the key codes that where deployed in our prototype general-purpose LLM system for extracting procedure knowledge from technical documents, such as engineering maintenance manuals, without needing dataset annotation or model fine-tuning.
 
 ## Project Overview 
 The complete project prototype uses Streamlit as frontend interface and CHromaDB as Vector Store. The project structure is as illustrated below:
@@ -35,8 +35,8 @@ Dependencies:
 - Pillow: Image processing
 - chromadb: Vector storage
 
-##Key Modules
-This repo contains the main branches mentioned in our Medium article {} and is meant to be shared with like-minded researchers and collaborators pursuing similar research questions. The branches include:
+## Key Modules
+These are modules mentioned in our Medium article {} and shared here with like-minded researchers and collaborators pursuing similar research questions. The branches include:
 
 - Simple VLM-RAG mode to understand flattened PDF technical manuals
 - Preparation of the vector store (this uses the `run_pipeline.py`)

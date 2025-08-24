@@ -1,1 +1,0 @@
-# Q1: can the florence model allow setting of temperature?

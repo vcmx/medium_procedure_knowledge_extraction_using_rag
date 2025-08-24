@@ -1,7 +1,5 @@
 Seems like the same problem as: https://huggingface.co/microsoft/phi-1_5/discussions/72
 
-I'm trying the provided workaround with modeling_florence2.py (still downloading the model it didn't crash so far):
-
 ```python
 import os
 from unittest.mock import patch
@@ -48,6 +46,3 @@ prompt = "<MORE_DETAILED_CAPTION>"
 run_example(prompt)
 
 ```
-
-
-Edit: With this workaround, it works on my MacBook!
