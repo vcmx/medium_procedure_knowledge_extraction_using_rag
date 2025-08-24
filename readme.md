@@ -48,6 +48,23 @@ The branches shared here comprise:
 5. advanced agent mode with more robust query analysis [feature/advanced-rag-functions](https://github.com/simkimsia/genai-202504-team-1/tree/feature/advanced-rag-functions)
 6. Query-Answering (this uses the streamlit and output folder and `rag_storage` folder)
 
+multimodal_rag_pipeline.py: Two-Step Hierarchical Chunking.
+processor.py: Text content is further broken down into smaller semantically coherent chunks
+florence_local_processor.py: transform vital visual information from the extracted images into text format that can be processed alongside the text content
+
+factory.py: Vector Embedding Generation with CLIP and Qwen3. This is a the key AI design of this project that we were constantly evaluating - whether model selection is a critical consideration that will determine the performance of the procedure knowledge extraction tool
+
+rag_with_chroma.py: Maximal Marginal Relevance (MMR) to introduce diversity in the retrieved document. It also incorporated BM25 with Reciprocal Rank Fusion to combine traditional keyword-based search with semantic similarity scoring.
+
+simple_supervisor_agent.py: Multi-Agent architecture implemented using LangGraph-based agentic flow to assign specific roles to individual agents, allowing each agent to focus on specific tasks.
+
+evaluator.py: Two approaches, namely RAGAS and GEval, to evaluate the effectiveness of our enhanced LLM-RAG engine for procedure knowledge extraction.
+
+KeThere are two phases:
+
+1. Preparation of the vector store (this uses the `run_pipeline.py`)
+2. Query-Answering (this uses the streamlit and output folder and `rag_storage` folder)
+
 
 ## Tips and Recommendations
 1. We recommend deploying the codes using Python 3.12, and to set up a virtual environment before installing the necessary packages
@@ -62,52 +79,3 @@ The branches shared here comprise:
    1. `requirements.txt` is for main branch to run the first 3 modes: simple rag, eval mode, multi agent mode
    2. `requirements-prep.txt` for pipeline processing in main branch
    3. `requirements-query-analysis.txt` for advanced agent mode in `feature/advanced-rag-functions` branch
-
-
-KeThere are two phases:
-
-1. Preparation of the vector store (this uses the `run_pipeline.py`)
-2. Query-Answering (this uses the streamlit and output folder and `rag_storage` folder)
-
-### Common Issues
-
-
-7. `streamlit run src/modules/query_answering/rag_chat_app.py` to run the chat
-
-### Common Commands
-
-### end to end for preparation
-
-```bash
-python run_pipeline.py
-    --pdf_path input-pdfs/sample.pdf \
-    --output_dir output   \
-    --storage_path clip_bm25_docu_summary \
-    --image_processor_impl "florence" \
-    --embedder_impl "clip" \
-    --document_summary='This technical manual provides detailed service and repair instructions for System4 Electronic Fuel Injection (MEFI) equipped engines, emphasizing safety, proper part replacement, and diagnostic procedures.'
-```
-
-### preprocessed
-
-```bash
-python run_pipeline.py --pre_processed_dir output/sample_20250525_185322 --output_dir output
-```
-
-### with document summary
-
-```bash
-python run_pipeline.py \
-    --pre_processed_dir=output/MEFI-5-Service-Manual_20250610_162940 \
-    --storage_path clip_bm25_docu_summary \
-    --image_processor_impl "florence" \
-    --embedder_impl "clip" \
-    --document_summary='This technical manual provides detailed service and repair instructions for System4 Electronic Fuel Injection (MEFI) equipped engines, emphasizing safety, proper part replacement, and diagnostic procedures.'
-```
-
-### querying
-
-```bash
-streamlit run src/modules/query_answering/rag_chat_app.py
-```
-
