@@ -60,6 +60,16 @@ simple_supervisor_agent.py: Multi-Agent architecture implemented using LangGraph
 
 evaluator.py: Two approaches, namely RAGAS and GEval, to evaluate the effectiveness of our enhanced LLM-RAG engine for procedure knowledge extraction.
 
+
+run_pipeline.py: The main entry point script for executing the pipeline. It parses command-line arguments and orchestrates the different modules.
+src/modules/pipeline/multimodal_rag_pipeline.py: Contains the core logic for the pipeline, coordinating the extraction, processing, and storage steps.
+src/modules/image_processor/factory.py: A factory for creating different image processor instances (e.g., local, Hugging Face, OpenRouter). This allows for easily switching between implementations.
+src/modules/embeddings/factory.py: A factory for creating different embedding model instances (e.g., local CLIP, Hugging Face).
+src/modules/image_processor/florence_huggingface_processor.py: The implementation for generating image captions using the Hugging Face Inference API.
+src/modules/embeddings/huggingface_hub.py: The implementation for generating text and image embeddings using the Hugging Face Inference API.
+src/modules/image_processor/base.py: An abstract base class that defines the common interface for all image processors, ensuring consistency.
+.env: A file to store sensitive API keys (HUGGINGFACE_API_KEY, OPENROUTER_API_KEY). This file should not be committed to version control.
+
 KeThere are two phases:
 
 1. Preparation of the vector store (this uses the `run_pipeline.py`)
