@@ -1,0 +1,67 @@
+{
+  "technical_terms": [
+    "engine", "transmission", "brake", "suspension", "steering",
+    "cooling system", "exhaust", "fuel system", "electrical system",
+    "hydraulic", "pneumatic", "diagnostic", "calibration",
+    "ignition", "alternator", "starter", "battery", "ECU", "ECM",
+    "turbocharger", "supercharger", "intercooler", "radiator",
+    "thermostat", "water pump", "oil pump", "fuel pump",
+    "differential", "axle", "drivetrain", "clutch", "flywheel",
+    "camshaft", "crankshaft", "timing belt", "timing chain",
+    "manifold", "intake", "exhaust", "catalytic converter",
+    "muffler", "resonator", "oxygen sensor", "MAF sensor",
+    "throttle body", "fuel injector", "spark plug", "coil pack"
+  ],
+  "component_names": [
+    "cylinder", "piston", "valve", "gear", "bearing", "seal",
+    "gasket", "filter", "pump", "sensor", "actuator", "module",
+    "belt", "chain", "pulley", "shaft", "rotor", "caliper",
+    "pad", "disc", "drum", "shoe", "spring", "strut", "shock",
+    "bushing", "mount", "hose", "line", "fitting", "connector",
+    "relay", "fuse", "switch", "solenoid", "coil", "wire",
+    "harness", "terminal", "plug", "socket", "bolt", "nut",
+    "washer", "stud", "clamp", "bracket", "housing", "cover",
+    "pan", "tank", "reservoir", "cap", "lid", "gauge", "meter"
+  ],
+  "actions": [
+    "install", "remove", "replace", "inspect", "adjust",
+    "torque", "align", "calibrate", "test", "measure",
+    "clean", "lubricate", "tighten", "loosen", "check",
+    "diagnose", "troubleshoot", "repair", "rebuild", "overhaul",
+    "service", "maintain", "flush", "bleed", "purge",
+    "prime", "charge", "discharge", "connect", "disconnect",
+    "mount", "unmount", "secure", "release", "engage",
+    "disengage", "activate", "deactivate", "reset", "program",
+    "code", "scan", "monitor", "verify", "confirm"
+  ],
+  "measurements": [
+    "torque", "pressure", "temperature", "clearance", "gap",
+    "voltage", "resistance", "current", "flow rate", "rpm",
+    "angle", "dimension", "tolerance", "specification",
+    "compression", "vacuum", "boost", "backpressure", "ratio",
+    "percentage", "frequency", "amplitude", "duration", "timing",
+    "offset", "runout", "endplay", "backlash", "preload",
+    "tension", "deflection", "wear", "thickness", "diameter",
+    "length", "width", "height", "depth", "volume", "capacity",
+    "weight", "mass", "density", "viscosity", "grade"
+  ],
+  "diagnostic_terms": [
+    "DTC", "trouble code", "fault code", "error code", "MIL",
+    "check engine", "warning light", "symptom", "condition",
+    "intermittent", "continuous", "pending", "history", "freeze frame",
+    "live data", "PID", "readiness monitor", "drive cycle",
+    "diagnostic mode", "test mode", "service mode", "OBD", "OBD-II",
+    "scan tool", "diagnostic tool", "multimeter", "oscilloscope",
+    "pressure gauge", "vacuum gauge", "compression tester",
+    "leak detector", "smoke machine", "diagnostic chart",
+    "troubleshooting tree", "wiring diagram", "schematic"
+  ],
+  "maintenance_terms": [
+    "scheduled maintenance", "preventive maintenance", "service interval",
+    "maintenance schedule", "oil change", "filter replacement",
+    "fluid check", "fluid change", "tune-up", "inspection",
+    "adjustment", "lubrication", "cleaning", "winterization",
+    "break-in", "warranty", "recall", "TSB", "service bulletin",
+    "update", "retrofit", "modification", "upgrade", "downgrade"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "creation_date": "2025-06-16T01:24:41.038201",
+    "last_updated": "2025-06-16T04:49:04.952605",
+    "embedder_details": {
+        "implementation": "clip",
+        "model_name": "openai/clip-vit-base-patch32",
+        "dimension": 512
+    },
+    "processed_files": [
+        "output/subaru_remove_install_timing_belt_20250610_233736",
+        "output/perkins_remove_assemble_turbocharger_20250614_182126",
+        "output/caterpillar_adjust_alternator_belt_20250611_000718",
+        "output/MEFI-5-Service-Manual_20250610_162940"
+    ]
+}

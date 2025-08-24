@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-processing-system"
+version = "0.1.2"
+description = "PDF Processing System with AI-powered image captioning"
+requires-python = ">=3.12"
+dependencies = [
+    # Core Streamlit and environment
+    "streamlit==1.45.1",
+    "python-dotenv",
+
+    # LLM, Transformers, and Image Processing (for Florence-2)
+    "transformers==4.51.3", # broke with florence2 when >= 4.52.1 see https://huggingface.co/microsoft/Florence-2-large/discussions/104
+    "torch>=2.7.0",
+    "Pillow==10.4.0", # marker 1.7.3 requires < 11
+    "einops>=0.8.1",
+    "timm>=1.0.15",
+    "sentencepiece",
+    "huggingface-hub",
+    "accelerate",
+    "numpy",
+
+    # Vector DB, Embeddings, and LlamaIndex
+    "chromadb==1.0.10",
+    "FalkorDB==1.1.1",
+    "sentence-transformers>=4.1.0",
+    "llama-parse",
+    "llama-index>=0.10.64",
+    "llama-index-retrievers-bm25",
+    "llama-index-vector-stores-chroma",
+    "llama-index-llms-openrouter==0.3.1",
+    "pystemmer",
+    "deepeval==3.0.7",
+    "datasets==3.6.0",
+    "ragas==0.2.15",
+
+    # Core agent dependencies
+    "langgraph>=0.0.55",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.1.0",
+    "langchain-core>=0.1.0",
+    "langchain-community>=0.0.20",
+    "langchain_ollama==0.3.3",
+    "tavily-python>=0.3.0",  # For web search functionality
+    "langchain-tavily==0.2.3",
+    # MCP
+    "mcp==1.9.4",
+    "langchain-mcp-adapters==0.1.7",
+
+    # Async and other utilities
+    "aiohttp>=3.8.0",
+    "asyncio-mqtt>=0.13.0",
+    "typing-extensions>=4.13.2",
+    "graphviz>=0.20.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.3.5",
+    "pytest-timeout",
+    "pytest-cov>=6.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
+testpaths = [
+    "tests"
+]
+python_files = [
+    "test_*.py"
+]
+addopts = "-v"

@@ -1,0 +1,61 @@
+{
+  "engine_assembly_query": {
+    "query": "engine assembly",
+    "results": [
+      {
+        "description": "The image is a page from a manual or instruction guide, likely for assembling a vehicle or a similar mechanical device. The page is divided into two main sections: a header and a body. The header is a narrow strip at the top, containing the word \"FINAL ASSEMBLY\" in bold, uppercase letters. Below this, there is a small, unobtrusive line of text that is not fully visible.\n\nThe body of the page is divided into two columns, each containing a series of numbered instructions. The instructions are numbered sequentially from 49 to 70, and they are written in a clear, readable font. Each instruction is accompanied by a brief description or a step-by-step guide, detailing the actions required to complete the assembly process. The instructions are written in a straightforward, instructional style, making them easy to follow.\n\nThe text is organized in a way that suggests a step-by-step guide, with each instruction building upon the previous one. The instructions are numbered and appear to be laid out in a logical sequence, starting from the front of the vehicle and moving towards the rear. This suggests that the assembly process is designed to be completed in a specific order, ensuring that each part is correctly placed and secured.\n\nThe overall layout is clean and professional, with a focus on clarity and ease of use. The use of bold text for the header and the numbering of the instructions helps to emphasize the importance of following the correct sequence, which is crucial for the successful assembly of the device or vehicle.\n\nIn summary, this image is a detailed, step-by-step guide for final assembly, likely for a mechanical device or vehicle, with clear, numbered instructions that are easy to follow. The layout is designed to be user-friendly and professional, ensuring that the assembly process is completed correctly and efficiently.",
+        "metadata": {
+          "document_type": "technical",
+          "content_type": "image_description",
+          "page": 9,
+          "source": "Airfix1.pdf"
+        },
+        "relevance": -325.24755859375,
+        "source_file": "Airfix1.pdf",
+        "page": 9
+      },
+      {
+        "description": "The image is a detailed diagram and instructions for assembling a vehicle's chassis. The diagram is divided into two main sections: a textual description on the right and a visual representation of the parts on the left. The visual representation includes various components labeled with numbers, such as 58, 59, 60, 44, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, and 58.\n\n### Textual Description:\nThe text on the right side of the image provides step-by-step instructions for assembling the chassis. The steps are numbered from 23 to 33 and are written in a clear, concise manner. Each step includes specific actions and notes, such as:\n- Locate and cement upper angled ends of front springs into inner holes of suspension lugs beneath chassis frame.\n- Locate upper pivot pins into stub axes.\n- Locate cement cross member and stub axes.\n- Locate and cement radiator support frame to locations on cross member and under chassis.\n- Locate and cement wheel arches to locations at rear of chassis.\n- Locate and cement engine radiator to locations at rear of chassis.\n- Locate and cement left and right compartment sidewalls to locations on underside of side of engine compartment.\n- Locate and cement step in sump over front cross member and end of gear box into transmission expansion tunnel.\n- Place assembled engine radiator to locations at rear of chassis.\n- Position and cement expansion tunnel to locations within engine compartment.\n\n### Visual Representation:\nThe left side of the image shows the parts of the chassis assembly. Each part is labeled with a number and is depicted in a clear, detailed manner. The parts include:\n- A large, detailed view of the chassis with various components attached.\n- Several smaller parts, such as springs, pivot pins, and other mechanical components, each labeled with a number.\n\n### Overall Content:\nThe image is a comprehensive guide for assembling a vehicle's chassis. It provides both textual instructions and visual representations of the parts and their assembly. The instructions are clear and detailed, ensuring that the assembly process is straightforward and easy to follow. The diagram is well-organized, making it easy to identify and locate each part for assembly.",
+        "metadata": {
+          "source": "Airfix1.pdf",
+          "content_type": "image_description",
+          "document_type": "technical",
+          "page": 4
+        },
+        "relevance": -332.6723327636719,
+        "source_file": "Airfix1.pdf",
+        "page": 4
+      }
+    ]
+  },
+  "engine_parts_query": {
+    "query": "What parts are shown in this engine assembly diagram?",
+    "image_source": {
+      "file": "Airfix1.pdf",
+      "page": 1
+    },
+    "answer": "The engine assembly diagram shows the following parts:\n\n1. Engine halves (1, 2)\n2. Front cover (3)\n3. Sump (4)\n4. Cylinder head (5)\n5. Triple carburetors (11)\n6. Exhaust manifold (12)\n7. Distributor box (14)\n8. Air cleaner (15)\n9. Fan (7)\n10. Fan belt (8)\n11. Fan belt (9)\n12. Fan belt (10)\n13. Fan belt (11)\n14. Fan belt (12)\n15. Fan belt (13)\n16. Fan belt (14)\n\nThese parts are the main components of the engine assembly, including the engine halves, front cover, sump, cylinder head, triple carburetors, exhaust manifold, distributor box, air cleaner, and various fan belts.",
+    "raw_response": {
+      "response": "The engine assembly diagram shows the following parts:\n\n1. Engine halves (1, 2)\n2. Front cover (3)\n3. Sump (4)\n4. Cylinder head (5)\n5. Triple carburetors (11)\n6. Exhaust manifold (12)\n7. Distributor box (14)\n8. Air cleaner (15)\n9. Fan (7)\n10. Fan belt (8)\n11. Fan belt (9)\n12. Fan belt (10)\n13. Fan belt (11)\n14. Fan belt (12)\n15. Fan belt (13)\n16. Fan belt (14)\n\nThese parts are the main components of the engine assembly, including the engine halves, front cover, sump, cylinder head, triple carburetors, exhaust manifold, distributor box, air cleaner, and various fan belts.",
+      "model": "qwen2.5vl:3b",
+      "total_duration": 70536236919,
+      "prompt_eval_count": 733,
+      "eval_count": 187
+    }
+  },
+  "chassis_components_query": {
+    "query": "What is shown in this chassis diagram and what are the main components?",
+    "image_source": {
+      "file": "Airfix1.pdf",
+      "page": 4
+    },
+    "answer": "The image shows a chassis assembly diagram for a vehicle, likely a car or a similar type of vehicle. The main components visible in the diagram include:\n\n1. **Front Axle**: This is the main component at the front of the vehicle, which is connected to the chassis.\n2. **Suspension Components**: These include the spring and shock absorber assembly, which are crucial for the vehicle's suspension system.\n3. **Chassis Frame**: This is the main structural frame of the vehicle, providing support for the other components.\n4. **Engine Compartment**: This section includes the engine and its associated components, such as the radiator and other cooling systems.\n5. **Transmission**: This is the component that transfers power from the engine to the wheels.\n6. **Exhaust System**: This includes the exhaust pipes and other components that help in the exhaust process.\n7. **Fuel System**: This includes the fuel tank, fuel lines, and other components related to fuel supply.\n8. **Brakes**: This includes the brake system, which is crucial for stopping the vehicle.\n9. **Wheels and Tires**: These are the components that provide the vehicle's ability to move on the road.\n\nThe diagram also shows various parts and their respective numbers, which are likely used for assembly and identification purposes.",
+    "raw_response": {
+      "response": "The image shows a chassis assembly diagram for a vehicle, likely a car or a similar type of vehicle. The main components visible in the diagram include:\n\n1. **Front Axle**: This is the main component at the front of the vehicle, which is connected to the chassis.\n2. **Suspension Components**: These include the spring and shock absorber assembly, which are crucial for the vehicle's suspension system.\n3. **Chassis Frame**: This is the main structural frame of the vehicle, providing support for the other components.\n4. **Engine Compartment**: This section includes the engine and its associated components, such as the radiator and other cooling systems.\n5. **Transmission**: This is the component that transfers power from the engine to the wheels.\n6. **Exhaust System**: This includes the exhaust pipes and other components that help in the exhaust process.\n7. **Fuel System**: This includes the fuel tank, fuel lines, and other components related to fuel supply.\n8. **Brakes**: This includes the brake system, which is crucial for stopping the vehicle.\n9. **Wheels and Tires**: These are the components that provide the vehicle's ability to move on the road.\n\nThe diagram also shows various parts and their respective numbers, which are likely used for assembly and identification purposes.",
+      "model": "qwen2.5vl:3b",
+      "total_duration": 79304742510,
+      "prompt_eval_count": 809,
+      "eval_count": 264
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "creation_date": "2025-06-16T06:27:45.742351",
+    "last_updated": "2025-06-17T05:31:18.682001",
+    "embedder_details": {
+        "implementation": "qwen",
+        "model_name": "Qwen/Qwen3-Embedding-4B",
+        "dimension": 2560
+    },
+    "processed_files": [
+        "output/perkins_remove_assemble_turbocharger_20250614_182126",
+        "output/subaru_remove_install_timing_belt_20250610_233736",
+        "output/caterpillar_adjust_alternator_belt_20250611_000718",
+        "output/MEFI-5-Service-Manual_20250610_162940"
+    ]
+}

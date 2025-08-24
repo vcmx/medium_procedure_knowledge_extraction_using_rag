@@ -1,0 +1,12 @@
+
+# Don't index SpecStory auto-save files, but allow explicit context inclusion via @ references
+.specstory/**
+
+.infrastructure/**
+
+output/**
+
+!.venv/exp_with_marker-31210/lib/python3.12/site-packages/marker
+.venv/**
+
+__pycache__/**
