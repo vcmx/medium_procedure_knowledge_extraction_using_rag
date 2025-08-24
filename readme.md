@@ -54,4 +54,4 @@ These are modules referenced in our Medium article for sharing with like-minded 
 
 ## Setting Up
 *   We recommend deploying the codes using Python 3.12, and to set up a virtual environment before installing the necessary packages
-*   Use the appropriate `requirements.txt`. `requirements.txt` is for main branch to run the first 3 modes: simple rag, eval mode, multi agent mode. `requirements-prep.txt` for pipeline processing in main branch. `requirements-query-analysis.txt` for advanced agent mode in `feature/advanced-rag-functions` branch
+*   Use the appropriate `requirements.txt`. `requirements.txt` is for main branch to run the first 3 modes: simple rag, eval mode, multi agent mode. `requirements-prep.txt` for pipeline processing in main branch. `requirements-query-analysis.txt` for the advanced agent mode.
