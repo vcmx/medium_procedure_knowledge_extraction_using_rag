@@ -33,7 +33,7 @@ Dependencies:
 - Pillow: Image processing
 - chromadb: Vector storage
 
-## Selected Key Modules [illustrated in the accompanying Medium article](https://medium.com/@VincentC_AI/fdf93e028de0?source=friends_link&sk=0d0afad0fc815efd231bb4c979ca1aa8)
+## Selected Key Modules ([see accompanying Medium article])(https://medium.com/@VincentC_AI/fdf93e028de0?source=friends_link&sk=0d0afad0fc815efd231bb4c979ca1aa8)
 These are the modules referenced in our [Medium article](https://medium.com/@VincentC_AI/fdf93e028de0?source=friends_link&sk=0d0afad0fc815efd231bb4c979ca1aa8) for sharing with like-minded researchers and collaborators who may be pursuing similar research questions (ordered in the sequence of appearance in the article):
 
 **Multimodal RAG Pipeline**
